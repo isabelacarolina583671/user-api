@@ -41,3 +41,4 @@ exports.remove = (req, res) =>{
 
     res.status(204).json({message: "User removed with sucess"})
 }
+
