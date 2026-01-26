@@ -5,7 +5,7 @@ exports.findAll = () =>{
     return users
 }
 
-exports.findById = (id) => user.find(u => u.id === id)
+exports.findById = (id) => users.find(u => u.id === id)
 
 exports.create = (data) =>{
     const user = { id: id++, ...data }
